@@ -1,1 +1,1 @@
-n=[for i in range(10)]
+n=[i for i in range(10)]
