@@ -9,7 +9,4 @@ a = st.number_input('first:')
 b = st.number_input('second:')
 
 
-if product:
-  st.write(f"The product of {a} and {b} is: {product}")
-else:
-  st.write("Please enter both numbers to calculate the product.")
+st.write(f"The product of {a} and {b} is: {product}")
