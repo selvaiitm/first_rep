@@ -8,5 +8,5 @@ def addition(a,b):
 a = st.number_input('a:')
 b = st.number_input('b:')
 
-
-# st.write(f"The product of {a} and {b} is: {product}")
+product = adition(a,b)
+st.write(f"The product of {a} and {b} is: {product}")
