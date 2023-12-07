@@ -14,5 +14,5 @@ st.write(f'The first number is {b}')
 st.write(f"The product of {a} and {b} is: {product}")
 data = []
 data.append(a,b,product)
-st.write( f'{*data}' )
+st.write( f'{data}' )
 st.line_chart(data)
