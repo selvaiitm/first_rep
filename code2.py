@@ -1,12 +1,11 @@
 
 import streamlit as st
 st.title('Hai welcome to my first streamlit app - Tamilselvan.N')
-st.title("adding two numbers")
-def addition(a,b):
-  product = a+b
-  return product
+st.title("Multiplying two numbers")
+def multiplication(a,b):
+  return a*b
 a = st.number_input('a:')
 b = st.number_input('b:')
 
-product = addition(a,b)
+product = multiplication(a,b)
 st.write(f"The product of {a} and {b} is: {product}")
