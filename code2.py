@@ -20,6 +20,8 @@ data.append(product)
 # st.write( f'{data}' )
 st.line_chart(data)
 st.bar_chart(data)
+
+import matplotlib.pyplot as plt
 plt.plot(a, b)
 
 # Customize the plot
