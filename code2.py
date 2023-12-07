@@ -1,7 +1,7 @@
 
 import streamlit as st
 st.title('Hai welcome to my first streamlit app - Tamilselvan.N')
-st.subtitle("Multiplying two numbers")
+st.title("Multiplying two numbers")
 def multiplication(a,b):
   product = a*b
   return product
