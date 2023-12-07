@@ -20,3 +20,12 @@ data.append(product)
 # st.write( f'{data}' )
 st.line_chart(data)
 st.bar_chart(data)
+plt.plot(a, b)
+
+# Customize the plot
+plt.xlabel('A')
+plt.ylabel('B')
+plt.title('Simple Line Plot')
+
+# Display the plot in Streamlit
+st.pyplot(plt)
