@@ -1,4 +1,4 @@
-
+import matplotlib.pyplot as plt
 import streamlit as st
 st.title('Hai welcome to my first streamlit app - Tamilselvan.N')
 st.title("Multiplying two numbers")
@@ -21,7 +21,7 @@ data.append(product)
 st.line_chart(data)
 st.bar_chart(data)
 
-import matplotlib.pyplot as plt
+
 plt.plot(a, b)
 
 # Customize the plot
