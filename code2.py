@@ -8,4 +8,4 @@ def multiplication(a,b):
 a = st.number_input('first:')
 b = st.number_input('second:')
 
-st.multiplication(a,b)
+multiplication(a,b)
