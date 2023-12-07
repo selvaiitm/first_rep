@@ -17,5 +17,6 @@ data.append(a)
 data.append(b)
 data.append(product)
 
-st.write( f'{data}' )
+# st.write( f'{data}' )
 st.line_chart(data)
+st.bar_chart(data)
